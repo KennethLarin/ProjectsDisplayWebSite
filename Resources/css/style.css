@@ -50,10 +50,10 @@ header h1 {
 nav {
   position: relative;
   top: 121px;
-  height: 20px;
+  height: 50px;
   width: 100%;
   margin: 20px auto;
-  
+
 }
 
 nav ul li {
