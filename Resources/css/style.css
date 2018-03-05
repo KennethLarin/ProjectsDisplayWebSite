@@ -56,7 +56,7 @@ header {
   justify-content: center;
   align-content: center;
   position: top fixed;
-  height: 120px;
+  height: auto;
   width: 100%;
   margin: 0 auto;
   background-color: #2A1E5C;
@@ -72,13 +72,28 @@ header h1 {
 
 nav {
   position: relative;
+  display: flex;
   height: 50px;
   width: 100%;
   margin: 20px auto;
-
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
 }
 
 nav ul li {
-  display: inline-block;
-  font-family: monospace;
+  display: inline-flex;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  text-decoration: none;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  width: inherit;
 }
+ li a {
+   text-decoration: none;
+   color: black;
+   opacity: 0.6
+ }
